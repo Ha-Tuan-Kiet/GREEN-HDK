@@ -68,7 +68,7 @@
             <div class="col-lg-6 col-md-5 order-md-1"><img class="img-fluid" src="{{asset('bootstrap/home/img/illustrations/1.png')}}" alt="" /></div>
             <div class="col-md-7 col-lg-6 mt-5 text-center text-md-start">
               <h1 class="fw-medium">Want to find great job<br />with <span class="fw-bold">GreenyHDK.</span></h1>
-              <p class="mt-3 mb-4">Give you the best way for your future to find a fixable job with <span class="fw-medium">GreenyHDK </span>.Increase the change to find a jobs connecting with the top opporation at TalentNetwork.  </p><a class="btn btn-lg hover-top btn-glow" href="/"  style="background-color: green;color:white">Get Started </a>
+              <p class="mt-3 mb-4">Give you the best way for your future to find a fixable job with <span class="fw-medium">GreenyHDK </span>.Increase the change to find a jobs connecting with the top opporation at TalentNetwork.  </p><a class="btn btn-lg hover-top btn-glow" href="homepage"  style="background-color: green;color:white">Get Started </a>
             </div>
           </div>
         </div>
@@ -78,7 +78,26 @@
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        {{-- <section class="py-4">
 
+          <div class="container">
+            <div class="searchBar">
+              <div class="search-input">
+                <label>
+                  <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+              </div>
+            </div>
+          </div> --}}
+          <!-- end of .container-->
+  
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
 
       <!-- ============================================-->
@@ -149,7 +168,7 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="pt-4 pt-md-6">
+      {{-- <section class="pt-4 pt-md-6">
 
         <div class="container">
           <div class="row align-items-center">
@@ -186,7 +205,7 @@
         </div>
         <!-- end of .container-->
 
-      </section>
+      </section> --}}
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
@@ -195,7 +214,7 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-100 py-7">
+      {{-- <section class="bg-100 py-7">
 
         <div class="container-lg">
           <div class="row justify-content-center">
@@ -332,7 +351,7 @@
         </div>
         <!-- end of .container-->
 
-      </section>
+      </section> --}}
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
@@ -341,7 +360,7 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-100 py-7 text-center">
+      {{-- <section class="bg-100 py-7 text-center">
 
         <div class="container">
           <div class="row justify-content-center">
@@ -354,32 +373,9 @@
         </div>
         <!-- end of .container-->
 
-      </section>
+      </section> --}}
       <!-- <section> close ============================-->
       <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="py-5 bg-100">
-
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-6 col-sm-4 col-md-2 mb-2 mb-md-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/netflix.png')}}" alt="" height="50" /></div>
-            <div class="col-6 col-sm-4 col-md-2 mb-2 mb-md-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/reddit.png')}}" alt="" height="50" /></div>
-            <div class="col-6 col-sm-4 col-md-2 mb-2 mb-md-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/amazon.png')}}" alt="" height="50" /></div>
-            <div class="col-6 col-sm-4 col-md-2 mb-2 mb-sm-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/discord.png')}}" alt="" height="50" /></div>
-            <div class="col-6 col-sm-4 col-md-2 mb-2 mb-sm-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/spotify.png')}}" alt="" height="50" /></div>
-          </div>
-        </div>
-        <!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
 
 
 
@@ -609,6 +605,29 @@
 
 
 
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section class="py-5 bg-100">
+
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-6 col-sm-4 col-md-2 mb-2 mb-md-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/netflix.png')}}" alt="" height="50" /></div>
+              <div class="col-6 col-sm-4 col-md-2 mb-2 mb-md-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/reddit.png')}}" alt="" height="50" /></div>
+              <div class="col-6 col-sm-4 col-md-2 mb-2 mb-md-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/amazon.png')}}" alt="" height="50" /></div>
+              <div class="col-6 col-sm-4 col-md-2 mb-2 mb-sm-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/discord.png')}}" alt="" height="50" /></div>
+              <div class="col-6 col-sm-4 col-md-2 mb-2 mb-sm-0"><img class="img-fluid" src="{{asset('bootstrap/home/img/gallery/spotify.png')}}" alt="" height="50" /></div>
+            </div>
+          </div>
+          <!-- end of .container-->
+  
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+  
+  
+  
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->

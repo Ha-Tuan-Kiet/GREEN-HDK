@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -14,7 +14,7 @@ class UserController extends Controller
     public function index()
     {
         $users = DB::table('users')->get();
-        return View('user.index',['users'=>$users]);
+        return View('user.userlist',['users'=>$users]);
     }
 
     /**

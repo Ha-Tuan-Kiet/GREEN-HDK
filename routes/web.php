@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use  App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/homepage', function () {
     return view('home.homepage');
 });
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('layout.home');
 });
 
@@ -52,3 +53,8 @@ Route::get('/users', function (){
     //var_dump($users);
     return view('user.userlist',  ['users' => $users]);
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('users', UserController::class);
